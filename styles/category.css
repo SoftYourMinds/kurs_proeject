@@ -1,0 +1,126 @@
+		#header {
+		    background-color: #4169E1;
+		}
+		
+		.category {
+		    display: grid;
+		    grid-template-columns: repeat(3, 0fr);
+		    grid-auto-rows: 300px;
+		}
+		
+		.img_cat {
+		    border-radius: 50%;
+		    border: 2px;
+		    border-color: black;
+		    height: 300px;
+		    width: 300px;
+		}
+		
+		.category-card {
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    padding: 5px;
+		    margin: 20px;
+		    width: 250px;
+		    height: 250px;
+		}
+		
+		.category-card:hover {
+		    opacity: 0.7;
+		    border-bottom: 2px solid black;
+		}
+		
+		.cont {
+		    display: flex;
+		    justify-content: center;
+		}
+		
+		body {
+		    background-color: white;
+		}
+		
+		.zag {
+		    color: black;
+		    padding-left: 40px;
+		}
+		
+		#good {
+		    width: 100%;
+		    margin: 40px;
+		    display: grid;
+		    grid-template-columns: repeat(3, 0fr);
+		    grid-auto-rows: 500px;
+		}
+		
+		.dropdown-menu {
+		    width: 40rem;
+		}
+		
+		.card {
+		    padding: 10px;
+		    margin: 10px;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: space-between;
+		}
+		
+		#desc {
+		    padding: 3px;
+		}
+		
+		.menu {
+		    margin-left: 40px;
+		    margin-top: 3px;
+		}
+		
+		.category-sign {}
+		
+		.img_cat {
+		    border-radius: 50%;
+		    border: 2px;
+		    border-color: black;
+		    height: 100px;
+		    width: 100px;
+		}
+		
+		#good {
+		    width: 100%;
+		    margin: 0px;
+		    padding-left: 40px;
+		    padding-right: 40px;
+		    display: grid;
+		    grid-template-columns: repeat(3, 0fr);
+		    grid-auto-rows: 500px;
+		    justify-content: center;
+		}
+		
+		.dropdown-menu {
+		    width: 40rem;
+		}
+		
+		.card {
+		    padding: 10px;
+		    margin: 20px;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: space-between;
+		}
+		
+		#desc {
+		    padding: 3px;
+		}
+		
+		#rom {
+		    color: black;
+		    padding-left: 40px;
+		}
+		
+		.menu {
+		    margin-left: 40px;
+		    margin-top: 3px;
+		}
+		
+		#header {
+		    background-color: #4169E1;
+		}

@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	min-height: 100vh;
+}
+body{
+	background-color: white;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.header {
+	background-color: white;
+	height: 5%;
+	width: 100%;
+	display: flex;
+	margin: 0px;
+	padding: 1%;
+
+	border-bottom: 3px solid #334277; 
+
+	
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.logo-ikon{
+	height: 70px;
+	width: 70px;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.header-logo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	height: 70px;
+	
+	padding: 0px;
+	margin: 0px;
+}
+
+.logo-sign{
+	display: flex;
+	flex-direction: column;
+
+
+
+	margin-left: 10px;
+	padding: 0px;
+	
+}
+
+.sign-name{
+	display: inline-flex;
+
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 25px;
+	font-weight: 900;
+	color: #334277;
+	
+}
+
+.sign-post-name{
+	display: inline-flex;
+
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 10px;
+	color: #334277;
+	
+	
+	opacity: 0.7;
+}
+
+.admin{
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 25px;
+	font-weight: 900;
+	color: #334277;
+}
+
+.ad{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#exitbtn{
+	padding: 0px;
+	margin: 0px;
+	 float: right;
+
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.dropdown{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+#all_goods{
+	padding-right: 40px;
+
+}
+
+#mmm{
+	margin-top: 2%;
+}
+#zag{
+	margin-top:2px;
+	margin-left: 40px;
+}
+#form_add_admin{
+	width: 60%;
+	height: 40%;
+	margin-left: 40px;
+}
+
+#form_add_tovar{
+	width: 60%;
+	height: 40%;
+	margin-left: 40px;
+}
+
+
+.form-label{
+	font-weight: 600;
+	color: #334277;
+
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#do{
+	float: right;
+}
+
+label{
+	padding-left: 15px;
+}
+
+.border{
+	padding: 10px;
+}
+
+
+

@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	min-height: 100vh;
+}
+
+body{
+	padding: 5%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-ikon{
+	height: 100px;
+	width: 100px;
+	padding: 0px;
+	margin: 0px;
+}
+#header-logo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	height: 50px;
+	
+	padding: 0px;
+	margin-top: 5%;
+	 
+
+}
+
+.nav-p{
+	margin-left: 20px;
+}
+.logo-sign{
+	display: flex;
+	flex-direction: column;
+
+	height: 70px;
+
+	margin-left: 10px;
+	padding: 0px;
+	
+}
+
+.border{
+	padding: 20px;
+}
+
+.sign-name{
+	display: inline-flex;
+
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 36px;
+	font-weight: 900;
+	color: #334277;
+}
+
+.sign-post-name{
+	display: inline-flex;
+
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 14px;
+	color: #334277;
+
+	opacity: 0.7;
+}
+
+#submit-cont{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.form-control{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a{
+	opacity: 0.6;
+}
+
+.sign-form{
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 600px;
+ width: 200px;
+}
+
